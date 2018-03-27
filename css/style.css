@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: black;
+}
+#board {
+	position: relative;
+	width: 936px;
+	height: 788px;
+	margin: auto;
+	background: url("../images/board.jpg") no-repeat;
+}
+#messageArea {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	color: rgb(83, 175, 19);
+}
+table {
+	position: absolute;
+	left: 157px;
+	top: 90px;
+	border-spacing: 0;
+}
+td {
+	width: 86px;
+	height: 86px;
+}
+form {
+	position: absolute;
+	top: 36px;
+	right: 0;
+	padding: 15px;
+	background-color: rgb(83, 175, 19);
+}
+form input {
+	background-color: rgb(152, 207, 113);
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+.hit {
+	background: url("../images/ship.png") no-repeat center center;
+}
+.miss {
+	background: url("../images/miss.png") no-repeat center center;
+}
